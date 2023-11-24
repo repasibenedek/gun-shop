@@ -108,14 +108,18 @@ header {
 }
 
 .product-info h2 {
-    color: #8b4513; 
+    color: #000; 
+    font-size: 40px;
 }
 
 .description {
-    color: #696969; 
-    font-size: 0.9em;
+    color: white;
+    background-color: rgba(88, 0, 15, 0.178);
+    padding: 10px;
+    font-size: 20px;
     margin-top: 10px;
 }
+
 
 button {
     background-color: #2e8b57; 
