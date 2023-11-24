@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="style.css">
+    <title>GunShop</title>
+</head>
+<body>
+
+    <header>
+        <h1>GunShop</h1>
+        <nav>
+            <ul>
+                <li><a href="/index">Főoldal</a></li>
+                <li><a href="/pistols">Pisztolyok</a></li>
+                <li><a href="/sub-guns">Géppfegyverek</a></li>
+                <li><a href="/rifles">Fegyverek</a></li>
+                <li><a href="/shotguns">Sörétes puskák</a></li>
+                <li><a href="/sniper-rifles">Mesterlövész-fegyverek</a></li>
+                <li><a href="/cart">Kosár</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="product-details">
+        <div class="product-image">
+            <img src="sig_sauer_p320.jpg" alt="Sig SAUER P320">
+        </div>
+        <div class="product-info">
+            <h2>Sig SAUER P320</h2>
+            <p class="description">A Sig Sauer P320 egy moduláris pisztoly.<br>
+                Egyik kiemelkedő tulajdonsága, hogy a fegyver tüzelési rendszere egy cserélhető modulrendszerre épül, ami lehetővé teszi a lövészet stílusának és igényeinek széleskörű testreszabását.</p>
+            <button class="add-to-cart" onclick="addToCart('Sig SAUER P320', 97.399)">Kosárba</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

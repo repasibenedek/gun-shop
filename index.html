@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="style.css">
+    <title>GunShop</title>
+</head>
+<body>
+
+    <header>
+        <h1>GunShop</h1>
+        <nav>
+            <ul>
+                <li><a href="/index">Főoldal</a></li>
+                <li><a href="/pistols">Pisztolyok</a></li>
+                <li><a href="/sub-guns">Géppfegyverek</a></li>
+                <li><a href="/rifles">Fegyverek</a></li>
+                <li><a href="/shotguns">Sörétes puskák</a></li>
+                <li><a href="/sniper-rifles">Mesterlövész-fegyverek</a></li>
+                <li><a href="/cart">Kosár</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Kiemelt pisztolyaink:</h1>
+    <section id="products">
+        <div class="product">
+            <img src="glock_17.jpg" alt="Glock 17">
+            <h2>Glock 17</h2>
+            <p>**#**</p>
+            <button class="more" onclick="window.location.href='/pistols/glock_17'">Részletek</button>
+            <button class="add-to-cart" onclick="addToCart('Glock 17', 97.399)">Kosárba</button>
+        </div>
+
+        <div class="product">
+            <img src="sig_sauer_p320.jpg" alt="Sig SAUER P320">
+            <h2>Sig SAUER P320</h2>
+            <p>**#**</p>
+            <button class="more" onclick="window.location.href='/pistols/glock_17'">Részletek</button>
+            <button class="add-to-cart" onclick="addToCart('Sig SAUER P320', 89.99)">Kosárba</button>
+        </div>
+    </section>
+
+    <section id="cart">
+        <h2>Kosár</h2>
+        <ul id="cart-items"></ul>
+        <p id="total">Összesen: <span id="cart-total">0</span> HUF</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
